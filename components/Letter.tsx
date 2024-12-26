@@ -121,7 +121,7 @@ const Letter = () => {
             <h3 className='text-green-700'>THỨ 5 | 18H00</h3>
             <h2 className='text-green-700 font-semibold text-xl'>15 . 02 . 2025</h2>
             <span className='text-green-700'>Tại Tư Gia Nhà Gái</span>
-            <span className='text-green-700 font-light'>(Tức Ngày xx Tháng xx Năm Tân Tị)</span>
+            <span className='text-green-700 font-light'>(Tức Ngày xx Tháng xx Năm Ất Tị)</span>
             <button onClick={() => setFormVisible(true)} className='mt-4 px-6 py-2 text-white font-semibold rounded-md bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:from-yellow-600 hover:to-yellow-800 focus:outline-none'>
                 Xác nhận tham dự
             </button>
@@ -136,7 +136,7 @@ const Letter = () => {
             <h3 className='text-green-700'>THỨ 5 | 18H00</h3>
             <h2 className='text-green-700 font-semibold text-xl'>15 . 02 . 2025</h2>
             <span className='text-green-700'>Tại Tư Gia Nhà Trai</span>
-            <span className='text-green-700 font-light'>(Tức Ngày xx Tháng xx Năm Tân Tị)</span>
+            <span className='text-green-700 font-light'>(Tức Ngày xx Tháng xx Năm Ất Tị)</span>
             <button onClick={() => setFormVisible(true)} className='mt-4 px-6 py-2 text-white font-semibold rounded-md bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:from-yellow-600 hover:to-yellow-800 focus:outline-none'>
                 Xác nhận tham dự
             </button>
