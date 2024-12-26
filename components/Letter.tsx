@@ -53,7 +53,7 @@ const Letter = () => {
       setSubmissionStatus('success');
       setFormVisible(false); // Ẩn form
       setFormData({ name: '', relationship: '', wish: '' }); // Reset form
-    } catch (error) {
+    } catch  {
       // Vẫn hiển thị trạng thái cảm ơn dù có lỗi
       setSubmissionStatus('success');
       setFormVisible(false);
