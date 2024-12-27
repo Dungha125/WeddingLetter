@@ -1,29 +1,51 @@
-'use client'
-import { useState, useRef } from "react";
+'use client';
+import { useEffect, useRef } from "react";
 import Mainwedding from "@/components/Mainwedding";
 import Infor from "@/components/Infor";
 import Letter from "@/components/Letter";
 import Album from "@/components/Album";
 
 export default function Home() {
-  const [isMuted, setIsMuted] = useState(false);  // State để lưu trạng thái tắt/mở âm thanh
-  const audioRef = useRef<HTMLAudioElement | null>(null);   // Tham chiếu đến phần tử audio
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  const toggleMute = () => {
-    if (audioRef.current) {
-      audioRef.current.muted = !isMuted;  
-    }
-    setIsMuted(!isMuted);  
-  };
+  useEffect(() => {
+    const playAudio = () => {
+      if (audioRef.current) {
+        audioRef.current
+          .play()
+          .then(() => console.log("Audio is playing"))
+          .catch((error) => {
+            console.log("Autoplay was prevented. User interaction required.", error);
+          });
+      }
+    };
+
+    // Tự động phát khi trang được tải
+    playAudio();
+
+    // Thêm sự kiện khi người dùng tương tác với trang
+    const handleInteraction = () => {
+      playAudio();
+      window.removeEventListener("click", handleInteraction);
+      window.removeEventListener("touchstart", handleInteraction);
+    };
+
+    window.addEventListener("click", handleInteraction);
+    window.addEventListener("touchstart", handleInteraction);
+
+    return () => {
+      window.removeEventListener("click", handleInteraction);
+      window.removeEventListener("touchstart", handleInteraction);
+    };
+  }, []);
 
   return (
     <div className="w-full h-full">
       <audio
         ref={audioRef}
-        src="/audio/music.mp3" 
+        src="/audio/music.mp3"
         autoPlay
         loop
-        muted={isMuted} 
       />
       <div className="flex flex-col overflow-hidden">
         <Mainwedding />
@@ -31,14 +53,6 @@ export default function Home() {
         <Letter />
         <Album />
       </div>
-
-      {/* Nút tắt/mở âm thanh */}
-      <button
-        onClick={toggleMute}
-        className="fixed bottom-5 right-5 p-3 bg-gray-500 text-white rounded-full"
-      >
-        {isMuted ? "🔇" : "🔊"} {/* Biểu tượng tắt/mở âm thanh */}
-      </button>
     </div>
   );
 }
