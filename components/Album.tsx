@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import { slideInFromBottom, slideInFromBottomtime, slideInFromLeft, slideInFromRight, slideInFromTop } from '@/util/motion';
+import { slideInFromBottom, slideInFromBottomtime, slideInFromTop } from '@/util/motion';
 
 const Album = () => {
   const images = [
