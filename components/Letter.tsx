@@ -77,7 +77,7 @@ const Letter = () => {
           <p className='text-xs sm:text-lg md:text-2xl'>THAM DỰ LỄ CƯỚI CỦA DUYÊN HỢP VÀ BẢO LONG</p>
         </motion.div>
 
-        <div className="flex flex-wrap justify-center items-center gap-6 mt-8 w-full">
+        <div className="flex flex-wrap justify-center items-center gap-4 mt-8 w-full">
           {/* Images */}
           <motion.div
             variants={slideInFromBottomtime(0.5)}
