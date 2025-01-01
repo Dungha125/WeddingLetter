@@ -64,7 +64,7 @@ const Letter = () => {
   return (
     <>
       <div className='h-full w-full bg-white flex flex-col items-center py-6'>
-        <hr className='border-1 border-green-700 w-[180px] py-4' />
+        <hr className='border-1 border-red-700 w-[180px] py-4' />
 
         <motion.div
           variants={slideInFromBottom}
@@ -73,7 +73,7 @@ const Letter = () => {
           viewport={{ once: true, amount: 0.5 }}
           className='w-full px-4 text-center text-neutral-800'
         >
-          <h2 className='Peristiwa text-3xl sm:text-4xl md:text-5xl text-green-700 mb-2'>Thư Mời</h2>
+          <h2 className='Peristiwa text-3xl sm:text-4xl md:text-5xl text-red-500 mb-2'>Thư Mời</h2>
           <p className='text-xs sm:text-lg md:text-2xl'>THAM DỰ LỄ CƯỚI CỦA DUYÊN HỢP VÀ BẢO LONG</p>
         </motion.div>
 
@@ -116,12 +116,12 @@ const Letter = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.7 }}
-          className='m-4 bg-green-100 max-w-[450px] md:min-w-[450px] rounded-md flex flex-col justify-center items-center p-4 gap-3'>
-            <span className='text-green-700 font-semibold'>TIỆC CƯỚI NHÀ GÁI</span>
-            <h3 className='text-green-700'>THỨ 5 | 18H00</h3>
-            <h2 className='text-green-700 font-semibold text-xl'>15 . 02 . 2025</h2>
-            <span className='text-green-700'>Tại Tư Gia Nhà Gái</span>
-            <span className='text-green-700 font-light'>(Tức Ngày xx Tháng xx Năm Ất Tị)</span>
+          className='m-4 bg-red-100 max-w-[450px] md:min-w-[450px] rounded-md flex flex-col justify-center items-center p-4 gap-3'>
+            <span className='text-red-600 font-semibold'>TIỆC CƯỚI NHÀ GÁI</span>
+            <h3 className='text-red-600'>THỨ 5 | 18H00</h3>
+            <h2 className='text-red-600 font-semibold text-xl'>15 . 02 . 2025</h2>
+            <span className='text-red-600'>Tại Tư Gia Nhà Gái</span>
+            <span className='text-red-600 font-light'>(Tức Ngày xx Tháng xx Năm Ất Tị)</span>
             <button onClick={() => setFormVisible(true)} className='mt-4 px-6 py-2 text-white font-semibold rounded-md bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:from-yellow-600 hover:to-yellow-800 focus:outline-none'>
                 Xác nhận tham dự
             </button>
@@ -131,12 +131,12 @@ const Letter = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.7 }}
-          className='m-4 bg-green-100 max-w-[450px] md:min-w-[450px] rounded-md  flex flex-col justify-center items-center p-4 gap-3'>
-            <span className='text-green-700 font-semibold'>TIỆC CƯỚI NHÀ TRAI</span>
-            <h3 className='text-green-700'>THỨ 5 | 18H00</h3>
-            <h2 className='text-green-700 font-semibold text-xl'>15 . 02 . 2025</h2>
-            <span className='text-green-700'>Tại Tư Gia Nhà Trai</span>
-            <span className='text-green-700 font-light'>(Tức Ngày xx Tháng xx Năm Ất Tị)</span>
+          className='m-4 bg-red-50 max-w-[450px] md:min-w-[450px] rounded-md  flex flex-col justify-center items-center p-4 gap-3'>
+            <span className='text-red-600 font-semibold'>TIỆC CƯỚI NHÀ TRAI</span>
+            <h3 className='text-red-600'>THỨ 5 | 18H00</h3>
+            <h2 className='text-red-600 font-semibold text-xl'>15 . 02 . 2025</h2>
+            <span className='text-red-600'>Tại Tư Gia Nhà Trai</span>
+            <span className='text-red-600 font-light'>(Tức Ngày xx Tháng xx Năm Ất Tị)</span>
             <button onClick={() => setFormVisible(true)} className='mt-4 px-6 py-2 text-white font-semibold rounded-md bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:from-yellow-600 hover:to-yellow-800 focus:outline-none'>
                 Xác nhận tham dự
             </button>
@@ -195,7 +195,7 @@ const Letter = () => {
 
       {/* Display the Thank You message and image after form submission */}
       {submissionStatus === 'success' && (
-        <div className='flex flex-col items-center bg-white p-4'>
+        <div className='flex flex-col items-center bg-white px-4 pb-[2rem]'>
           <h2 className='text-2xl md:text-4xl mb-4 text-green-700 Peristiwa'>Chúng tôi rất hân hạnh được đón tiếp quý vị!</h2>
           <div
                   style={{

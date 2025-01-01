@@ -13,7 +13,7 @@ const MainWedding = () => {
       {/* Save The Date Title */}
       <motion.span
         variants={slideInFromBottomtime(0.5)}
-        className="Fz-Strange-Dreams text-center text-xl sm:text-2xl lg:text-3xl xl:text-4xl text-green-700"
+        className="Fz-Strange-Dreams text-center text-3xl sm:text-2xl lg:text-3xl xl:text-4xl text-white"
       >
         SAVE THE DATE
       </motion.span>
@@ -21,9 +21,9 @@ const MainWedding = () => {
       {/* Couple's Names */}
       <motion.div
         variants={slideInFromBottomtime(0.6)}
-        className="Peristiwa text-black text-center text-2xl sm:text-4xl lg:text-5xl xl:text-6xl"
+        className="Peristiwa text-yellow-300 text-center text-3xl sm:text-4xl lg:text-5xl xl:text-6xl"
       >
-        Duyên Hợp & Bảo Long
+        Hồng Ngọc & Dũng Hà
       </motion.div>
 
       {/* Image Section */}
@@ -35,7 +35,7 @@ const MainWedding = () => {
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}
-        className="w-full sm:w-3/4 md:w-[400px] lg:w-[500px] xl:w-[600px] h-48 sm:h-64 md:h-72 lg:h-80 xl:h-[300px] rounded-xl"
+        className="w-[90%] sm:w-3/4 md:w-[400px] lg:w-[500px] xl:w-[600px] h-48 sm:h-64 md:h-72 lg:h-80 xl:h-[300px] rounded-xl"
       />
 
       {/* Date Section */}
@@ -44,16 +44,16 @@ const MainWedding = () => {
         className="flex flex-row items-center text-center sm:text-left gap-2 sm:gap-3"
       >
         {/* Day */}
-        <span className="text-xl sm:text-3xl lg:text-4xl xl:text-5xl px-4 text-green-700 Fz-Strange-Dreams">
+        <span className="text-xl sm:text-3xl lg:text-4xl xl:text-5xl px-4 text-yellow-300 Fz-Strange-Dreams">
           Thứ 7
         </span>
 
         {/* Divider and Date */}
-        <div className="border-l-2 md:border-l-4 border-green-800 flex flex-col items-center sm:items-start">
-          <span className="Fz-Strange-Dreams text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-green-700 px-4">
+        <div className="border-l-2 md:border-l-4 border-yellow-300 flex flex-col items-center sm:items-start">
+          <span className="Fz-Strange-Dreams text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-yellow-300 px-4">
             15.02
           </span>
-          <span className="Fz-Strange-Dreams text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-green-700 px-4">
+          <span className="Fz-Strange-Dreams text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-yellow-300 px-4">
             2025
           </span>
         </div>

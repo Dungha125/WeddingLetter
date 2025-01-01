@@ -11,7 +11,7 @@ const Infor = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
-        className='w-full px-6 text-center merienda text-green-700 text-xs sm:text-sm md:text-lg lg:text-xl'>
+        className='w-full px-6 text-center merienda text-red-600 text-xs sm:text-sm md:text-lg lg:text-xl'>
         <h2>“A new command I give you: Love one another.
         <br />As I have loved you, so you must love one another”</h2>
       </motion.div>

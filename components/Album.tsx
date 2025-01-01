@@ -21,7 +21,7 @@ const Album = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
-          className='Fz-Strange-Dreams text-3xl md:text-5xl text-green-700'>ĐỊA ĐIỂM TỔ CHỨC</motion.h2>
+          className='Fz-Strange-Dreams text-3xl md:text-5xl text-yellow-300 mt-[2rem]'>ĐỊA ĐIỂM TỔ CHỨC</motion.h2>
         <div className='w-full h-full flex flex-col md:flex-row justify-center mt-4'>
           
           <motion.div
@@ -55,7 +55,7 @@ const Album = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
-        className="Fz-Strange-Dreams text-3xl md:text-5xl text-green-700 my-4"
+        className="Fz-Strange-Dreams text-3xl md:text-5xl text-yellow-300 my-4"
       >
         ALBUM KỶ NIỆM
       </motion.h2>
