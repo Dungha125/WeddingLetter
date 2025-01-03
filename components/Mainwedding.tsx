@@ -8,9 +8,20 @@ const MainWedding = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="relative w-full min-h-screen flex flex-col justify-center items-center gap-3 md:gap-6 px-6 lg:gap-8 bg-transparent"
+      className="relative w-full min-h-screen overflow-y-hidden flex flex-col justify-center items-center gap-3 md:gap-6 px-6 lg:gap-8 bg-transparent"
     >
       {/* Save The Date Title */}
+      <motion.div
+        variants={slideInFromBottomtime(0.7)}
+      >
+        <img
+          src="/SVG/back0.svg"
+          alt="Background"
+          className="object-cover w-full h-full hidden md:block"
+        />
+      </motion.div>
+
+
       <motion.span
         variants={slideInFromBottomtime(0.5)}
         className="Fz-Strange-Dreams text-center text-3xl sm:text-2xl lg:text-3xl xl:text-4xl text-white"
