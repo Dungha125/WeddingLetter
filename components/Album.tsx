@@ -85,7 +85,7 @@ const Album = () => {
         />
         {/* Background for Larger Screens */}
         <img
-          src="/SVG/back10.svg"
+          src="/SVG/backmobile0.svg"
           alt="Background"
           className="object-cover w-full h-full"
         />

@@ -64,13 +64,6 @@ const MainWedding = () => {
         className="relative z-10 w-full flex flex-col items-center gap-3"
       >
         {/* Save The Date Title */}
-        <motion.div variants={slideInFromBottomtime(0.7)}>
-          <img
-            src="/SVG/back0.svg"
-            alt="Background"
-            className="object-cover w-full h-full hidden md:block"
-          />
-        </motion.div>
 
         <motion.span
           variants={slideInFromBottomtime(0.5)}
@@ -126,7 +119,7 @@ const MainWedding = () => {
           className="object-cover w-full h-full md:hidden"
         />
         <img
-          src="/SVG/back0.svg"
+          src="/SVG/backmobile0.svg"
           alt="Background"
           className="object-cover w-full h-full hidden md:block"
         />
