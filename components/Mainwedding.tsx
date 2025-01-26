@@ -77,7 +77,11 @@ const MainWedding = () => {
         className="relative z-10 w-full flex flex-col items-center gap-3"
       >
         {/* Save The Date Title */}
-
+        <img
+          src="/SVG/chuhi.svg"
+          alt="Background"
+          className="object-cover w-[100px] h-full"
+        />
         <motion.span
           variants={slideInFromBottomtime(0.5)}
           className="Fz-Strange-Dreams text-center text-3xl sm:text-2xl lg:text-3xl xl:text-4xl text-white"

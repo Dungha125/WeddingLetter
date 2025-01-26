@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "THIỆP MỜI DUYÊN HỢP x BẢO LONG",
   description: "THIỆP MỜI DUYÊN HỢP x BẢO LONG",
   icons: {
-    icon: "/SVG/logo.ico", // Đường dẫn tới favicon trong thư mục public/
+    icon: "public/SVG/logo.ico", // Đường dẫn tới favicon trong thư mục public/
   },
 };
 
