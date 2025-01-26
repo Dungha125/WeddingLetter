@@ -25,7 +25,7 @@ const Infor = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.4 }}
           style={{
-            backgroundImage: `url('/img/RENA3599.JPG')`,
+            backgroundImage: `url('/img/RENA3284.JPG')`,
             backgroundSize: 'contain',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',

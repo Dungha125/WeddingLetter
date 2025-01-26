@@ -93,22 +93,7 @@ const MainWedding = () => {
         />
         
         {/* Date Section */}
-        <motion.div
-          variants={slideInFromBottomtime(0.8)}
-          className="flex flex-row items-center text-center sm:text-left gap-2 sm:gap-3"
-        >
-          <span className="text-xl sm:text-3xl lg:text-4xl xl:text-5xl px-4 text-yellow-300 Fz-Strange-Dreams">
-            Thứ 7
-          </span>
-          <div className="border-l-2 md:border-l-4 border-yellow-300 flex flex-col items-center sm:items-start">
-            <span className="Fz-Strange-Dreams text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-yellow-300 px-4">
-              15.02
-            </span>
-            <span className="Fz-Strange-Dreams text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-yellow-300 px-4">
-              2025
-            </span>
-          </div>
-        </motion.div>
+        
       </motion.div>
 
       {/* Background SVG */}

@@ -86,7 +86,7 @@ const Letter = () => {
             viewport={{ once: true, amount: 0.7 }}
             className="w-1/4 sm:w-1/4 md:w-1/5 max-w-[200px] lg:max-w-[250px]"
           >
-            <img src="/img/RENA3542.JPG" alt="Image 1" className="w-full h-auto rounded-lg" />
+            <img src="/img/RENA3519.JPG" alt="Image 1" className="w-full h-auto rounded-lg" />
           </motion.div>
 
           <motion.div
@@ -96,7 +96,7 @@ const Letter = () => {
             viewport={{ once: true, amount: 0.5 }}
             className="w-1/3 sm:w-2/5 md:w-2/5 max-w-[250px] lg:max-w-[300px]"
           >
-            <img src="/img/RENA3558.JPG" alt="Image 2" className="w-full h-auto rounded-lg" />
+            <img src="/img/RENA3563.JPG" alt="Image 2" className="w-full h-auto rounded-lg" />
           </motion.div>
 
           <motion.div
@@ -202,7 +202,7 @@ const Letter = () => {
           <h2 className='text-2xl md:text-4xl mb-4 text-green-700 Peristiwa'>Chúng tôi rất hân hạnh được đón tiếp quý vị!</h2>
           <div
                   style={{
-                    backgroundImage: `url('/img/anh.jpg')`,
+                    backgroundImage: `url('/img/50x75 .JPG')`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
