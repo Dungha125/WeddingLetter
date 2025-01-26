@@ -56,6 +56,19 @@ const MainWedding = () => {
           backgroundPosition: 'center',
         }}
       ></motion.div>
+      {/* Background SVG */}
+      <div className="absolute inset-0 -z-50">
+        <img
+          src="/SVG/backmobile0.svg"
+          alt="Background"
+          className="object-cover w-full h-full md:hidden"
+        />
+        <img
+          src="/SVG/backmobile0.svg"
+          alt="Background"
+          className="object-cover w-full h-full hidden md:block"
+        />
+      </div>
 
       {/* Main Content */}
       <motion.div
@@ -95,20 +108,6 @@ const MainWedding = () => {
         {/* Date Section */}
         
       </motion.div>
-
-      {/* Background SVG */}
-      <div className="absolute inset-0 -z-50">
-        <img
-          src="/SVG/backmobile0.svg"
-          alt="Background"
-          className="object-cover w-full h-full md:hidden"
-        />
-        <img
-          src="/SVG/backmobile0.svg"
-          alt="Background"
-          className="object-cover w-full h-full hidden md:block"
-        />
-      </div>
     </motion.div>
   );
 };
