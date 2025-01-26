@@ -12,7 +12,7 @@ const MainWedding = () => {
     visible: {
       x: '-100%',
       transition: {
-        duration: 2,
+        duration: 4,
         ease: 'easeInOut',
       },
     },
@@ -25,7 +25,7 @@ const MainWedding = () => {
     visible: {
       x: '100%',
       transition: {
-        duration: 2,
+        duration: 4,
         ease: 'easeInOut',
       },
     },
@@ -77,15 +77,15 @@ const MainWedding = () => {
           variants={slideInFromBottomtime(0.6)}
           className="Peristiwa text-yellow-300 text-center text-3xl sm:text-4xl lg:text-5xl xl:text-6xl"
         >
-          Hồng Ngọc & Dũng Hà
+          Duyên Hợp & Chí Long
         </motion.div>
 
         {/* Image Section */}
         <motion.div
           variants={slideInFromBottomtime(0.7)}
           style={{
-            backgroundImage: `url('/img/anh.jpg')`,
-            backgroundSize: 'cover',
+            backgroundImage: `url('/img/50x75 .JPG')`,
+            backgroundSize: 'contain',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
           }}

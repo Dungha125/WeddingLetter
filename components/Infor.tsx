@@ -25,8 +25,8 @@ const Infor = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.4 }}
           style={{
-            backgroundImage: `url('/img/anh.jpg')`,
-            backgroundSize: 'cover',
+            backgroundImage: `url('/img/RENA3599.JPG')`,
+            backgroundSize: 'contain',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
           }}
@@ -42,8 +42,8 @@ const Infor = () => {
             viewport={{ once: true, amount: 0.5 }}
             className='flex flex-col items-center gap-2'>
             <h3 className="text-xs sm:text-sm md:text-xl font-bold Fz-Strange-Dreams">Nhà gái</h3>
-            <p className="text-sm sm:text-base md:text-xl">Ông A</p>
-            <p className="text-sm sm:text-base md:text-xl">Bà B</p>
+            <p className="text-sm sm:text-base md:text-xl">Ông Trần Kim Tuyến</p>
+            <p className="text-sm sm:text-base md:text-xl">Bà Phạm Thị Nhài</p>
           </motion.span>
           <motion.span 
             variants={slideInFromRight(1)}
@@ -68,8 +68,8 @@ const Infor = () => {
           viewport={{ once: true, amount: 0.4 }}
           className='flex flex-col items-center gap-2'>
             <h3 className="text-xs sm:text-sm md:text-xl font-bold Fz-Strange-Dreams">Nhà trai</h3>
-            <p className="text-sm sm:text-base md:text-xl">Ông C</p>
-            <p className="text-sm sm:text-base md:text-xl">Bà D</p>
+            <p className="text-sm sm:text-base md:text-xl">Ông Đỗ Xuân Mô</p>
+            <p className="text-sm sm:text-base md:text-xl">Bà Đỗ Thị Bảy</p>
           </motion.span>
           <motion.span  
           variants={slideInFromLeft(1)}
@@ -78,7 +78,7 @@ const Infor = () => {
           viewport={{ once: true, amount: 0.4 }}
           className='flex flex-col items-center'>
             <h3 className="text-xs sm:text-sm md:text-xl font-bold Fz-Strange-Dreams">Chú rể</h3>
-            <h2 className="text-[20px] sm:text-[24px] md:text-[36px] Peristiwa mt-1 text-cyan-600">Nguyễn Bảo Long</h2>
+            <h2 className="text-[20px] sm:text-[24px] md:text-[36px] Peristiwa mt-1 text-cyan-600">Đỗ Chí Long</h2>
           </motion.span>
         </div>
 
@@ -89,8 +89,8 @@ const Infor = () => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
           style={{
-            backgroundImage: `url('/img/anh.jpg')`,
-            backgroundSize: 'cover',
+            backgroundImage: `url('/img/RENA3678.JPG')`,
+            backgroundSize: 'contain',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
           }}

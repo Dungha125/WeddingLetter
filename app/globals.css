@@ -59,24 +59,23 @@ body {
 
 .album-grid {
   display: grid;
-  grid-template-areas:
-    "a a b b"
-    "c d d e"
-    "f g h h"
-    "i i i i";
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* Chia thành 3 cột */
+  grid-template-rows: auto;
+  gap: 8px;
 }
 
 .album-item {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .album-image {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
   border-radius: 8px;
 }
-

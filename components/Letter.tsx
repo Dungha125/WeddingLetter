@@ -86,7 +86,7 @@ const Letter = () => {
             viewport={{ once: true, amount: 0.7 }}
             className="w-1/4 sm:w-1/4 md:w-1/5 max-w-[200px] lg:max-w-[250px]"
           >
-            <img src="/img/anh.jpg" alt="Image 1" className="w-full h-auto rounded-lg" />
+            <img src="/img/RENA3542.JPG" alt="Image 1" className="w-full h-auto rounded-lg" />
           </motion.div>
 
           <motion.div
@@ -96,7 +96,7 @@ const Letter = () => {
             viewport={{ once: true, amount: 0.5 }}
             className="w-1/3 sm:w-2/5 md:w-2/5 max-w-[250px] lg:max-w-[300px]"
           >
-            <img src="/img/anh.jpg" alt="Image 2" className="w-full h-auto rounded-lg" />
+            <img src="/img/RENA3558.JPG" alt="Image 2" className="w-full h-auto rounded-lg" />
           </motion.div>
 
           <motion.div
@@ -106,11 +106,11 @@ const Letter = () => {
             viewport={{ once: true, amount: 0.7 }}
             className="w-1/4 sm:w-1/4 md:w-1/5 max-w-[200px] lg:max-w-[250px]"
           >
-            <img src="/img/anh.jpg" alt="Image 3" className="w-full h-auto rounded-lg" />
+            <img src="/img/RENA3537.JPG" alt="Image 3" className="w-full h-auto rounded-lg" />
           </motion.div>
         </div>
 
-        <div className='w-full h-full flex flex-col md:flex-row justify-center mt-4'>
+        <div className='w-full h-full flex flex-col md:flex-row justify-center items-center mt-4'>
           <motion.div 
           variants={slideInFromLeft(0.5)}
           initial="hidden"
@@ -118,10 +118,12 @@ const Letter = () => {
           viewport={{ once: true, amount: 0.7 }}
           className='m-4 bg-red-100 max-w-[450px] md:min-w-[450px] rounded-md flex flex-col justify-center items-center p-4 gap-3'>
             <span className='text-red-600 font-semibold'>TIỆC CƯỚI NHÀ GÁI</span>
-            <h3 className='text-red-600'>THỨ 5 | 18H00</h3>
-            <h2 className='text-red-600 font-semibold text-xl'>15 . 02 . 2025</h2>
+            <h3 className='text-red-600'>CHỦ NHẬT | 10H00</h3>
+            <h2 className='text-red-600 font-semibold text-xl'>16 . 02 . 2025</h2>
+            <span className='text-red-600 font-light'>(Tức Ngày 19 Tháng 01 Năm Ất Tỵ)</span>
             <span className='text-red-600'>Tại Tư Gia Nhà Gái</span>
-            <span className='text-red-600 font-light'>(Tức Ngày xx Tháng xx Năm Ất Tị)</span>
+            <span className='text-red-600 text-center'>Thôn Xuân Hồng - Xã Võ Lao - Văn Bàn - Lào Cai</span>
+            
             <button onClick={() => setFormVisible(true)} className='mt-4 px-6 py-2 text-white font-semibold rounded-md bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:from-yellow-600 hover:to-yellow-800 focus:outline-none'>
                 Xác nhận tham dự
             </button>
@@ -133,10 +135,11 @@ const Letter = () => {
           viewport={{ once: true, amount: 0.7 }}
           className='m-4 bg-red-50 max-w-[450px] md:min-w-[450px] rounded-md  flex flex-col justify-center items-center p-4 gap-3'>
             <span className='text-red-600 font-semibold'>TIỆC CƯỚI NHÀ TRAI</span>
-            <h3 className='text-red-600'>THỨ 5 | 18H00</h3>
-            <h2 className='text-red-600 font-semibold text-xl'>15 . 02 . 2025</h2>
+            <h3 className='text-red-600'>THỨ BA | 10H00</h3>
+            <h2 className='text-red-600 font-semibold text-xl'>18 . 02 . 2025</h2>
+            <span className='text-red-600 font-light'>(Tức Ngày 21 Tháng 01 Năm Ất Tỵ)</span>
             <span className='text-red-600'>Tại Tư Gia Nhà Trai</span>
-            <span className='text-red-600 font-light'>(Tức Ngày xx Tháng xx Năm Ất Tị)</span>
+            <span className='text-red-600 text-center'>Thôn Nhuần 3 - Xã Phú Nhuận - Bảo Thắng - Lào Cai</span>
             <button onClick={() => setFormVisible(true)} className='mt-4 px-6 py-2 text-white font-semibold rounded-md bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:from-yellow-600 hover:to-yellow-800 focus:outline-none'>
                 Xác nhận tham dự
             </button>
