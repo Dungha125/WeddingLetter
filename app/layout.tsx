@@ -32,6 +32,7 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
+
   },
   twitter: {
     card: "summary_large_image",
@@ -64,6 +65,8 @@ export default function RootLayout({
         <meta name="twitter:title" content="THIỆP MỜI DUYÊN HỢP x CHÍ LONG" />
         <meta name="twitter:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
         <meta name="twitter:image" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.png" /> {/* Fixed image URL */}
+
+        <meta property="fb:app_id" content="997664185513686" />
 
         {/* Thêm thẻ Meta cho các nền tảng khác nếu cần */}
         <meta name="viewport" content="width=device-width, initial-scale=1" /> {/* Đảm bảo tính tương thích di động */}
