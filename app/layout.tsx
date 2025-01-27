@@ -16,16 +16,16 @@ export const metadata: Metadata = {
   title: "THIỆP MỜI DUYÊN HỢP x CHÍ LONG",
   description: "Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!",
   icons: {
-    icon: "/SVG/logo.ico",
+    icon: "/SVG/logo.ico", // Đường dẫn favicon (Next.js tự động lấy từ /public)
   },
   openGraph: {
     title: "THIỆP MỜI DUYÊN HỢP x CHÍ LONG",
     description: "Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!",
-    url: "https://thiepmoi-hoplong.vercel.app",
+    url: "https://thiepmoi-hoplong.vercel.app", // Đổi thành URL thực tế của bạn
     siteName: "Duyên Hợp x Chí Long",
     images: [
       {
-        url: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/474870351_1134091018374439_6853357279384386079_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=B0MGJYMh4nAQ7kNvgEtRSOG&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=AV5o3FiH9SEOirNJtuD9Q_T&oh=00_AYAVOPtDKkjaVpQ3OhPyHd4OKoYpScOyo3FhEvcZ1VlyhA&oe=679CE77C",
+        url: "https://thiepmoi-hoplong.vercel.app/SVG/preview.png", // Ảnh preview khi chia sẻ link
         width: 1200,
         height: 630,
         alt: "Thiệp mời sự kiện Duyên Hợp x Chí Long",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "THIỆP MỜI DUYÊN HỢP x CHÍ LONG",
     description: "Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!",
-    images: ["https://www.facebook.com/photo/?fbid=1134088408374700&set=pcb.1134090915041116"],
+    images: ["https://thiepmoi-hoplong.vercel.app/SVG/preview.png"], // Ảnh preview trên Twitter
   },
 };
 
@@ -45,34 +45,28 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="vi">
+    <html lang="vi"> {/* Đặt ngôn ngữ Tiếng Việt */}
       <head>
-        {/* Thêm thẻ Meta cho Messenger */}
-        <meta property="og:type" content="website" />
+        {/* Meta tags bổ sung để hỗ trợ Messenger và Zalo */}
         <meta property="og:title" content="THIỆP MỜI DUYÊN HỢP x CHÍ LONG" />
         <meta property="og:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
-        <meta property="og:image" content="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/474870351_1134091018374439_6853357279384386079_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=B0MGJYMh4nAQ7kNvgEtRSOG&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=AV5o3FiH9SEOirNJtuD9Q_T&oh=00_AYAVOPtDKkjaVpQ3OhPyHd4OKoYpScOyo3FhEvcZ1VlyhA&oe=679CE77C" />
-        <meta property="og:image:secure_url" content="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/474870351_1134091018374439_6853357279384386079_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=B0MGJYMh4nAQ7kNvgEtRSOG&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=AV5o3FiH9SEOirNJtuD9Q_T&oh=00_AYAVOPtDKkjaVpQ3OhPyHd4OKoYpScOyo3FhEvcZ1VlyhA&oe=679CE77C" />
+        <meta property="og:image" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.png" />
         <meta property="og:url" content="https://thiepmoi-hoplong.vercel.app/" />
+        <meta property="og:image:secure_url" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="Duyên Hợp x Chí Long" />
         <meta property="og:image:alt" content="Thiệp mời sự kiện Duyên Hợp x Chí Long" />
+{/* Đảm bảo có mô tả hình ảnh */}
         
-        {/* Thêm thẻ Meta cho Twitter */}
+        {/* Thẻ Meta Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="THIỆP MỜI DUYÊN HỢP x CHÍ LONG" />
         <meta name="twitter:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
-        <meta name="twitter:image" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg" />
-        
+        <meta name="twitter:image" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.png" /> {/* Fixed image URL */}
+
         {/* Thêm thẻ Meta cho các nền tảng khác nếu cần */}
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
-        {/* Thêm link rel="image_src" */}
-        <link rel="image_src" href="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/474870351_1134091018374439_6853357279384386079_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=B0MGJYMh4nAQ7kNvgEtRSOG&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=AV5o3FiH9SEOirNJtuD9Q_T&oh=00_AYAVOPtDKkjaVpQ3OhPyHd4OKoYpScOyo3FhEvcZ1VlyhA&oe=679CE77C" />
-        
-        {/* Thêm thẻ og:locale */}
-        <meta property="og:locale" content="vi_VN" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> {/* Đảm bảo tính tương thích di động */}
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
