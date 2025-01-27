@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Duyên Hợp x Chí Long",
     images: [
       {
-        url: "https://www.facebook.com/photo/?fbid=1134088408374700&set=pcb.1134090915041116",
+        url: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/474870351_1134091018374439_6853357279384386079_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=B0MGJYMh4nAQ7kNvgEtRSOG&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=AV5o3FiH9SEOirNJtuD9Q_T&oh=00_AYAVOPtDKkjaVpQ3OhPyHd4OKoYpScOyo3FhEvcZ1VlyhA&oe=679CE77C",
         width: 1200,
         height: 630,
         alt: "Thiệp mời sự kiện Duyên Hợp x Chí Long",
@@ -51,8 +51,8 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:title" content="THIỆP MỜI DUYÊN HỢP x CHÍ LONG" />
         <meta property="og:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
-        <meta property="og:image" content="https://www.facebook.com/photo/?fbid=1134088408374700&set=pcb.1134090915041116" />
-        <meta property="og:image:secure_url" content="https://www.facebook.com/photo/?fbid=1134088408374700&set=pcb.1134090915041116" />
+        <meta property="og:image" content="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/474870351_1134091018374439_6853357279384386079_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=B0MGJYMh4nAQ7kNvgEtRSOG&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=AV5o3FiH9SEOirNJtuD9Q_T&oh=00_AYAVOPtDKkjaVpQ3OhPyHd4OKoYpScOyo3FhEvcZ1VlyhA&oe=679CE77C" />
+        <meta property="og:image:secure_url" content="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/474870351_1134091018374439_6853357279384386079_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=B0MGJYMh4nAQ7kNvgEtRSOG&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=AV5o3FiH9SEOirNJtuD9Q_T&oh=00_AYAVOPtDKkjaVpQ3OhPyHd4OKoYpScOyo3FhEvcZ1VlyhA&oe=679CE77C" />
         <meta property="og:url" content="https://thiepmoi-hoplong.vercel.app/" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -69,7 +69,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         {/* Thêm link rel="image_src" */}
-        <link rel="image_src" href="https://www.facebook.com/photo/?fbid=1134088408374700&set=pcb.1134090915041116" />
+        <link rel="image_src" href="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/474870351_1134091018374439_6853357279384386079_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=B0MGJYMh4nAQ7kNvgEtRSOG&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=AV5o3FiH9SEOirNJtuD9Q_T&oh=00_AYAVOPtDKkjaVpQ3OhPyHd4OKoYpScOyo3FhEvcZ1VlyhA&oe=679CE77C" />
         
         {/* Thêm thẻ og:locale */}
         <meta property="og:locale" content="vi_VN" />
