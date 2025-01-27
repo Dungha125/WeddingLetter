@@ -53,6 +53,7 @@ export default function RootLayout({
         <meta property="og:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
         <meta property="og:image" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg" />
         <meta property="og:url" content="https://thiepmoi-hoplong.vercel.app/" />
+        <meta property="og:image:secure_url" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="Duyên Hợp x Chí Long" />
