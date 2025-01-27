@@ -74,7 +74,7 @@ const Letter = () => {
           className='w-full px-4 text-center text-neutral-800'
         >
           <h2 className='Peristiwa text-3xl sm:text-4xl md:text-5xl text-red-500 mb-2'>Thư Mời</h2>
-          <p className='text-xs sm:text-lg md:text-2xl'>THAM DỰ LỄ CƯỚI CỦA DUYÊN HỢP VÀ BẢO LONG</p>
+          <p className='text-xs sm:text-lg md:text-2xl'>THAM DỰ LỄ CƯỚI CỦA DUYÊN HỢP VÀ CHÍ LONG</p>
         </motion.div>
 
         <div className="flex flex-wrap justify-center items-center gap-4 mt-8 w-full">
