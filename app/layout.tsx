@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Duyên Hợp x Bảo Long",
     images: [
       {
-        url: "https://drive.google.com/file/d/1jidVekinjVE-emnX72ZoceKDL7ZcMU2g/view?usp=sharing", // Ảnh preview khi chia sẻ link
+        url: "https://thiepmoi-hoplong.vercel.app/img/RENA3519.JPG", // Ảnh preview khi chia sẻ link
         width: 1200,
         height: 630,
         alt: "Thiệp mời sự kiện Duyên Hợp x Bảo Long",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "THIỆP MỜI DUYÊN HỢP x BẢO LONG",
     description: "Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!",
-    images: ["https://drive.google.com/file/d/1jidVekinjVE-emnX72ZoceKDL7ZcMU2g/view?usp=sharing"], // Ảnh preview trên Twitter
+    images: ["https://thiepmoi-hoplong.vercel.app/img/RENA3519.JPG"], // Ảnh preview trên Twitter
   },
 };
 
@@ -51,13 +51,13 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:title" content="THIỆP MỜI DUYÊN HỢP x BẢO LONG" />
         <meta property="og:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
-        <meta property="og:image" content="https://drive.google.com/file/d/1jidVekinjVE-emnX72ZoceKDL7ZcMU2g/view?usp=sharing" />
+        <meta property="og:image" content="https://thiepmoi-hoplong.vercel.app/img/RENA3519.JPG" />
         <meta property="og:url" content="https://thiepmoi-hoplong.vercel.app/" />
         <meta property="og:site_name" content="Duyên Hợp x Bảo Long" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="THIỆP MỜI DUYÊN HỢP x BẢO LONG" />
         <meta name="twitter:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
-        <meta name="twitter:image" content="https://drive.google.com/file/d/1jidVekinjVE-emnX72ZoceKDL7ZcMU2g/view?usp=sharing" />
+        <meta name="twitter:image" content="https://thiepmoi-hoplong.vercel.app/img/RENA3519.JPG" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
