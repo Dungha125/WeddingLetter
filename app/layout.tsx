@@ -13,29 +13,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "THIỆP MỜI DUYÊN HỢP x BẢO LONG",
+  title: "THIỆP MỜI DUYÊN HỢP x CHÍ LONG",
   description: "Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!",
   icons: {
     icon: "/SVG/logo.ico", // Đường dẫn favicon (Next.js tự động lấy từ /public)
   },
   openGraph: {
-    title: "THIỆP MỜI DUYÊN HỢP x BẢO LONG",
+    title: "THIỆP MỜI DUYÊN HỢP x CHÍ LONG",
     description: "Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!",
     url: "https://thiepmoi-hoplong.vercel.app", // Đổi thành URL thực tế của bạn
-    siteName: "Duyên Hợp x Bảo Long",
+    siteName: "Duyên Hợp x Chí Long",
     images: [
       {
         url: "https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg", // Ảnh preview khi chia sẻ link
         width: 1200,
         height: 630,
-        alt: "Thiệp mời sự kiện Duyên Hợp x Bảo Long",
+        alt: "Thiệp mời sự kiện Duyên Hợp x Chí Long",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "THIỆP MỜI DUYÊN HỢP x BẢO LONG",
+    title: "THIỆP MỜI DUYÊN HỢP x CHÍ LONG",
     description: "Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!",
     images: ["https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg"], // Ảnh preview trên Twitter
   },
@@ -49,15 +49,15 @@ export default function RootLayout({
       <head>
         {/* Meta tags bổ sung để hỗ trợ Messenger và Zalo */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="THIỆP MỜI DUYÊN HỢP x BẢO LONG" />
+        <meta property="og:title" content="THIỆP MỜI DUYÊN HỢP x CHÍ LONG" />
         <meta property="og:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
         <meta property="og:image" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg" />
         <meta property="og:url" content="https://thiepmoi-hoplong.vercel.app/" />
         <meta property="og:image:width" content="1200"/>
         <meta property="og:image:height" content="630"/>
-        <meta property="og:site_name" content="Duyên Hợp x Bảo Long" />
+        <meta property="og:site_name" content="Duyên Hợp x Chí Long" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="THIỆP MỜI DUYÊN HỢP x BẢO LONG" />
+        <meta name="twitter:title" content="THIỆP MỜI DUYÊN HỢP x CHÍ LONG" />
         <meta name="twitter:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
         <meta name="twitter:image" content="https://thiepmoi-hoplong.vercel.app//preview.jpg" />
       </head>

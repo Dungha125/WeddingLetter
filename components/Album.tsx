@@ -37,7 +37,7 @@ const Album = () => {
         >
           <span className="text-pink-700 font-semibold">TIỆC CƯỚI NHÀ GÁI</span>
           <button className="px-6 py-2 text-white font-semibold rounded-md bg-gradient-to-r from-pink-500 via-pink-600 to-pink-700 hover:from-pink-600 hover:to-pink-800 focus:outline-none">
-            <a href="https://maps.app.goo.gl/97gxRowGRngCSCh6A">Xem bản đồ</a>
+            <a href="https://maps.app.goo.gl/rPT7q1GxD1K7F5k9A">Xem bản đồ</a>
           </button>
         </motion.div>
 
@@ -50,7 +50,7 @@ const Album = () => {
         >
           <span className="text-cyan-700 font-semibold">TIỆC CƯỚI NHÀ TRAI</span>
           <button className="px-6 py-2 text-white font-semibold rounded-md bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 hover:from-cyan-600 hover:to-cyan-800 focus:outline-none">
-            <a href="https://maps.app.goo.gl/E2EuKNUbWz8LqpTr6">Xem bản đồ</a>
+            <a href="https://maps.app.goo.gl/i7iqAyHpEp3yGqnz5">Xem bản đồ</a>
           </button>
         </motion.div>
       </div>
