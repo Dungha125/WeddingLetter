@@ -45,7 +45,20 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="vi"> {/* Đặt ngôn ngữ Tiếng Việt */}
+      <head>
+        {/* Meta tags bổ sung để hỗ trợ Messenger và Zalo */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="THIỆP MỜI DUYÊN HỢP x BẢO LONG" />
+        <meta property="og:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
+        <meta property="og:image" content="https://yourwebsite.com/images/preview.jpg" />
+        <meta property="og:url" content="https://yourwebsite.com" />
+        <meta property="og:site_name" content="Duyên Hợp x Bảo Long" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="THIỆP MỜI DUYÊN HỢP x BẢO LONG" />
+        <meta name="twitter:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
+        <meta name="twitter:image" content="https://yourwebsite.com/images/preview.jpg" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
