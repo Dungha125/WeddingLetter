@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Duyên Hợp x Bảo Long",
     images: [
       {
-        url: "@/public/img/50x75 .JPG", // Ảnh preview khi chia sẻ link
+        url: "./public/img/50x75 .JPG", // Ảnh preview khi chia sẻ link
         width: 1200,
         height: 630,
         alt: "Thiệp mời sự kiện Duyên Hợp x Bảo Long",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "THIỆP MỜI DUYÊN HỢP x BẢO LONG",
     description: "Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!",
-    images: ["@/public/img/50x75 .JPG"], // Ảnh preview trên Twitter
+    images: ["./public/img/50x75 .JPG"], // Ảnh preview trên Twitter
   },
 };
 
@@ -51,13 +51,13 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:title" content="THIỆP MỜI DUYÊN HỢP x BẢO LONG" />
         <meta property="og:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
-        <meta property="og:image" content="https://yourwebsite.com/images/preview.jpg" />
-        <meta property="og:url" content="https://yourwebsite.com" />
+        <meta property="og:image" content="./public/img/50x75 .JPG" />
+        <meta property="og:url" content="https://thiepmoi-hoplong.vercel.app/" />
         <meta property="og:site_name" content="Duyên Hợp x Bảo Long" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="THIỆP MỜI DUYÊN HỢP x BẢO LONG" />
         <meta name="twitter:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
-        <meta name="twitter:image" content="https://yourwebsite.com/images/preview.jpg" />
+        <meta name="twitter:image" content="./public/img/50x75 .JPG" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
