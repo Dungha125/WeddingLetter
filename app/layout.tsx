@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Duyên Hợp x Chí Long",
     images: [
       {
-        url: "https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg", // Ảnh preview khi chia sẻ link
+        url: "https://www.google.com.vn/search?q=%E1%BA%A3nh&udm=2#vhid=deUcfIoz_OweRM&vssid=mosaic", // Ảnh preview khi chia sẻ link
         width: 1200,
         height: 630,
         alt: "Thiệp mời sự kiện Duyên Hợp x Chí Long",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "THIỆP MỜI DUYÊN HỢP x CHÍ LONG",
     description: "Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!",
-    images: ["https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg"], // Ảnh preview trên Twitter
+    images: ["https://www.google.com.vn/search?q=%E1%BA%A3nh&udm=2#vhid=deUcfIoz_OweRM&vssid=mosaic"], // Ảnh preview trên Twitter
   },
 };
 
@@ -51,7 +51,7 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:title" content="THIỆP MỜI DUYÊN HỢP x CHÍ LONG" />
         <meta property="og:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
-        <meta property="og:image" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg" />
+        <meta property="og:image" content="https://www.google.com.vn/search?q=%E1%BA%A3nh&udm=2#vhid=deUcfIoz_OweRM&vssid=mosaic" />
         <meta property="og:url" content="https://thiepmoi-hoplong.vercel.app/" />
         <meta property="og:image:secure_url" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg" />
         <meta property="og:image:width" content="1200" />
@@ -63,7 +63,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="THIỆP MỜI DUYÊN HỢP x CHÍ LONG" />
         <meta name="twitter:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
-        <meta name="twitter:image" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg" /> {/* Fixed image URL */}
+        <meta name="twitter:image" content="https://www.google.com.vn/search?q=%E1%BA%A3nh&udm=2#vhid=deUcfIoz_OweRM&vssid=mosaic" /> {/* Fixed image URL */}
 
         {/* Thêm thẻ Meta cho các nền tảng khác nếu cần */}
         <meta name="viewport" content="width=device-width, initial-scale=1" /> {/* Đảm bảo tính tương thích di động */}
