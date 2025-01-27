@@ -56,10 +56,16 @@ export default function RootLayout({
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="Duyên Hợp x Chí Long" />
+        <meta property="og:image:alt" content="Thiệp mời sự kiện Duyên Hợp x Chí Long" /> {/* Đảm bảo có mô tả hình ảnh */}
+        
+        {/* Thẻ Meta Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="THIỆP MỜI DUYÊN HỢP x CHÍ LONG" />
         <meta name="twitter:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
         <meta name="twitter:image" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.jpg" /> {/* Fixed image URL */}
+
+        {/* Thêm thẻ Meta cho các nền tảng khác nếu cần */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> {/* Đảm bảo tính tương thích di động */}
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
